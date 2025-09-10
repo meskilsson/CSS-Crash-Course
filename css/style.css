@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.clr {
+    clear: both;
+}
+
 a {
     text-decoration: none;
     color: #000;
@@ -28,6 +32,19 @@ body {
 .container {
     width: 80%;
     margin: auto;
+}
+
+.button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background: lightblue;
+    color: white;
 }
 
 .box-1 {
@@ -73,4 +90,46 @@ body {
 .categories li {
     padding-bottom: 6px;
     border-bottom: dotted 1px #333;
+}
+
+.my-form {
+    padding: 20px;
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input[type=text],
+.my-form textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+
 }
